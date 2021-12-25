@@ -25,7 +25,7 @@ public class UpStacLoginController {
 		if(response != null) {
 			return "welcome " + response;
 		}
-		return "welcome ";
+		return "Hi, welcome ";
 	}
 	
 	@PostMapping(value="persist/user")
